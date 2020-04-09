@@ -1,0 +1,10 @@
+let humanScore = 0;
+let computerScore = 0;
+let currentRoundNumber = 1;
+
+//Generates a random target number
+const generateTarget = () => {
+    return Math.floor(Math.random()*9);
+};
+
+console.log(generateTarget());
