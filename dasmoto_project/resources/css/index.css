@@ -45,3 +45,8 @@ header h1 {
 .blue {
     color:blue
 }
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
