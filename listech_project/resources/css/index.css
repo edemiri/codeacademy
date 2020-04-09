@@ -1,0 +1,99 @@
+/* Header and Navigation */
+
+header {
+    background-color:white;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index:1;
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    margin-left:38px;
+    color: darkred;
+    
+}
+
+
+.solutions {
+   font-weight: normal;
+   color: black;
+}
+
+.menu li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: square;
+    list-style-position: outside;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+
+}
+/* ================================================== */
+
+/* Main and Body*/
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 160px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+main {
+    background-color: silver;
+    padding: 20px;
+
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.companypresentation article {
+    color: white;
+    background-color: darkred;
+    padding: 20px;
+    text-align: left;
+    max-width: 200px;
+   display:inline-block;
+
+}
+/* ================================================== */
+
+/* Footer */
+
+footer {
+    background-color: darkred;
+    color:white;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top:200px;
+}
+/* ================================================== */
+
+/* Anchor */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.all {
+    position: relative;
+    top: 200px;
+
+}
