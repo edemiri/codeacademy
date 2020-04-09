@@ -1,0 +1,147 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Header section */
+
+header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: darkslateblue;
+  color: white;
+  padding: 20px;
+  border: 1px solid black;
+  max-width: 100%;
+}
+
+/* List items in navigation */
+
+.menu li {
+  display: inline-block;
+  background-color: whitesmoke;
+  padding: 5px 20px;
+  border: 1px solid white;
+  margin-top: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+
+/* Anchors (links) in the list items of navigation */
+
+.menu a {
+  text-decoration: none;
+  color: darkslateblue;
+}
+
+/* h2 in Section */
+
+.allSections h2 {
+  margin: 30px auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: lightsteelblue;
+  padding: 10px 10px;
+  color: darkslateblue;
+}
+
+.allSections {
+  max-width: 90%;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+
+/* Colors Items Section */
+
+.colorSection li {
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 50px;
+  margin: 0 1.8rem;
+  width: 80px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  border: 1px solid black;
+
+}
+
+
+
+.description {
+  width: 180px;
+  color: black;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  margin: 0 10px;
+}
+
+.maroon {
+  background-color: #800000;
+}
+
+#purple {
+  background-color: #800080;
+}
+
+#lime {
+  background-color: #00ff00;
+}
+
+#navy {
+  background-color: #000080;
+}
+
+#teal {
+  background-color: #008080;
+}
+
+#lightcoral {
+  background-color: #f08080;
+}
+
+/* Font Section */
+
+
+p.fontNames {
+  font-size: large;
+  text-decoration: underline;
+}
+
+div.librefranklin {
+  font-family: "Libre Frankin";
+  font-size: x-large;
+
+}
+
+div.josefinsans {
+  font-family: "Josefin Sans";
+  font-size: x-large;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+
+
+
+/* Footer Section */
+
+footer {
+  background-color: hsl(184, 14%, 28%);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  max-width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  top: 14px;
+}
