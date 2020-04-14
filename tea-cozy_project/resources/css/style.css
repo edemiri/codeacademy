@@ -1,0 +1,136 @@
+body {
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    font-family: "Helvetica";
+    font-size: 22px;
+    color:seashell;
+    opacity: 0.9;
+    width: 85%;
+    margin: 1.5% auto;
+}
+
+.container-header{
+    height:69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height:50px;
+}
+
+
+.container .banner{
+    width:1200px;
+    margin:0 auto;
+}
+
+.bannerImage{
+    border: 1px solid seashell;
+    height:700px;
+    width: 100%;
+}
+
+
+ #text{
+    position: absolute;
+    bottom: 200px;
+    background-color: black;
+    text-align: center;
+    width: 80%;
+    }
+
+ #product.container{
+    width: 1000px;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+.flex-container-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.flex-container-product img{
+    width:300px;
+    height:200px;
+}
+
+
+#location.container {
+    width:1200px;
+    margin:0 auto;
+    height:auto;
+}
+
+
+.flex-container-locations div{
+    background-color: black;
+    text-align: center;
+    margin:15px 20px;
+    z-index: 10;
+    top:255%;
+    width: 20%;
+
+}
+
+.downtown{
+    position: absolute;
+    right:60rem;
+}
+
+.eastBayside{
+    position: absolute;
+    right:37rem;
+
+}
+
+.oakdale{
+    position: absolute;
+    object-position: right;
+    right:13rem;
+
+}
+
+
+
+#loc{
+    position:relative;
+    top:300px;
+    margin:0 auto;
+    text-align: center;
+
+} 
+
+.flex-container-locations {
+display:flex;
+justify-content: space-evenly;
+
+}
+
+.contact{
+    text-align:center;
+    margin:0 auto;
+    bottom:280px;
+}
+
+
+.nav li{
+    display:inline-flex;
+    padding: 0.75rem;
+}
+
+.nav li a{
+    color:seashell;
+}
+
+footer {
+    text-align: left;
+    font-size: 1rem;
+}
+
+
